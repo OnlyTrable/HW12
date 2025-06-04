@@ -1,0 +1,10 @@
+  547  cp ../hw_12_morning/.gitignore ./
+  548  ls -la
+  549  git add .gitignore 
+  550  git commit -m "add .gitignore"
+  551  git push 
+  552  git push --set-upstream origin feature
+  553  git commit --amend
+  554  git checkout main
+  555  git merge feature
+  556  history | tail -n 10 > history.txt
